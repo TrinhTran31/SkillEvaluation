@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill" max_length="40" name="x_73800_skill_eval_skill" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product line" max_length="32" name="u_product_line" reference="x_73800_skill_eval_product_line" type="reference"/>
+        <element label="Skill description" max_length="4000" name="u_skill_description" type="string"/>
+        <element label="Weight" max_length="100" name="u_weight" type="integer"/>
+        <index name="index">
+            <element name="u_product_line"/>
+        </index>
+    </element>
+</database>

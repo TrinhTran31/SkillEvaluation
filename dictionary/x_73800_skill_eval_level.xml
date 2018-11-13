@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Level" max_length="40" name="x_73800_skill_eval_level" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Level" max_length="100" name="u_level" type="string"/>
+        <element label="Min Score" max_length="40" name="u_min_score" type="integer"/>
+        <element label="Tags" max_length="100" name="u_tags" type="string"/>
+    </element>
+</database>
