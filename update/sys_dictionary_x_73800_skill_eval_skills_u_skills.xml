@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_description" table="x_73800_skill_eval_submission">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_skills" table="x_73800_skill_eval_skills">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Description</column_label>
+        <column_label>Skills</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_description</element>
+        <element>u_skills</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>4000</max_length>
-        <name>x_73800_skill_eval_submission</name>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <name>x_73800_skill_eval_skills</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-13 07:44:01</sys_created_on>
-        <sys_id>f0b9057cdbf923004e97fbef299619cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Description</sys_name>
+        <sys_created_on>2018-11-13 10:55:02</sys_created_on>
+        <sys_id>ea75b5b8db7d23004e97fbef2996195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skills</sys_name>
         <sys_package display_value="Skill Evaluation" source="x_73800_skill_eval">164770f0dbb923004e97fbef29961978</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">164770f0dbb923004e97fbef29961978</sys_scope>
-        <sys_update_name>sys_dictionary_x_73800_skill_eval_submission_u_description</sys_update_name>
+        <sys_update_name>sys_dictionary_x_73800_skill_eval_skills_u_skills</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-13 09:50:58</sys_updated_on>
+        <sys_updated_on>2018-11-13 10:55:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

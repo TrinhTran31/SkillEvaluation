@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access>public</access>
+        <access/>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>true</create_access>
-        <create_access_controls>true</create_access_controls>
-        <delete_access>true</delete_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Skill</label>
+        <label>Skills</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_73800_skill_eval_skill</name>
-        <number_ref display_value="SKI">31e589b8dbf923004e97fbef299619a1</number_ref>
+        <name>x_73800_skill_eval_skills</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class/>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">41a7a956bc002300aadb875973a34be2</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-13 07:26:53</sys_created_on>
-        <sys_id>dac505f4dbf923004e97fbef299619ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Skill</sys_name>
+        <sys_created_on>2018-11-13 10:49:10</sys_created_on>
+        <sys_id>fc34b578db7d23004e97fbef2996196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Eval Skills</sys_name>
         <sys_package display_value="Skill Evaluation" source="x_73800_skill_eval">164770f0dbb923004e97fbef29961978</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">164770f0dbb923004e97fbef29961978</sys_scope>
-        <sys_update_name>sys_db_object_dac505f4dbf923004e97fbef299619ea</sys_update_name>
+        <sys_update_name>sys_db_object_fc34b578db7d23004e97fbef2996196d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-13 10:37:36</sys_updated_on>
-        <update_access>true</update_access>
-        <user_role display_value="x_73800_skill_eval.skill_user" name="x_73800_skill_eval.skill_user">35e5c5b4dbf923004e97fbef2996199a</user_role>
+        <sys_updated_on>2018-11-13 10:49:10</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

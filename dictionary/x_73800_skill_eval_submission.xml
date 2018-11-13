@@ -2,7 +2,7 @@
     <element label="Submission" max_length="40" name="x_73800_skill_eval_submission" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Assigned to" mandatory="true" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
-        <element label="Description" max_length="4000" name="u_description" type="string"/>
+        <element label="Description" mandatory="true" max_length="4000" name="u_description" type="string"/>
         <element label="Level" max_length="32" name="u_level" reference="x_73800_skill_eval_level" type="reference"/>
         <element label="Opened by" max_length="32" name="u_opened_by" reference="sys_user" type="reference"/>
         <element label="Score" max_length="100" name="u_score" type="integer"/>

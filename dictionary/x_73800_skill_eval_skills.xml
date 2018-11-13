@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Skills" max_length="40" name="x_73800_skill_eval_skills" type="collection">
+        <element attributes="import_attribute_name=Platform,edge_encryption_enabled=true" label="Platform" max_length="40" name="u_platform" type="string"/>
+        <element label="Product Line" max_length="100" name="u_product_line" type="string"/>
+        <element label="Skills" max_length="100" name="u_skills" type="string"/>
+        <element attributes="import_attribute_name=User Interface and Navigation,edge_encryption_enabled=true" label="User Interface and Navigation" max_length="187" name="u_user_interfa_and_navigation" type="string"/>
+    </element>
+</database>
